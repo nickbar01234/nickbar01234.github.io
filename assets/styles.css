@@ -1,0 +1,125 @@
+/* 
+    #141414
+    #FFFFFF
+    #CCCCCC
+    #CFBB93
+    #8D8B87 
+*/
+
+body {
+    background-color: #141414; 
+    font-family: Helvetica, Arial, sans-serif; 
+    font-size: 1.25rem; 
+    font-weight: 300;
+    line-height: 1.5;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3rem; 
+    font-weight: 600;
+}
+
+h2 {
+    display: block; 
+    font-size: 2rem; 
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #CFBB93; 
+}
+
+img {
+    height: auto; 
+    max-width: 100%; 
+}
+
+.font-white {
+    color: #fff; 
+}
+
+.font-grey {
+    color: #CCCCCC;
+}
+.font-light-grey {
+    color: #8D8B87;
+}
+
+.section-margin {
+    margin-bottom: 10rem; 
+}
+
+.section-header {
+    display: inline-block; 
+    position: relative; 
+}
+
+.section-header::after {
+    background-color: #CFBB93;
+    content: "";
+    left: 0;
+    height: 2px;
+    margin: 1rem auto; 
+    position: absolute; 
+    right: 0;
+    top: 100%;
+    width: 50px;
+}
+
+.block-margin {
+    margin-bottom: 4rem; 
+}
+
+/* navbar */
+
+nav {
+    position: relative;
+    z-index: 99;
+}
+
+#icon {
+    height: 3rem;
+}
+
+#subtitle {
+    height: 2.5rem; 
+}
+
+/* end navbar */
+
+/* social */
+
+.social {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    position: relative;
+}
+
+/* end-social */
+
+/* about */
+
+.about-box {
+    border-color: #CCCCCC;
+    border-style: solid;
+    height: 11rem;
+    position: relative; 
+    width: 11rem; 
+}
+
+.about-box__banner {
+    background-color: #141414;
+    bottom: 3rem;
+    border-color: #CFBB93;
+    border-style: solid; 
+    left: 3rem;
+    height: 10.8rem; 
+    position: relative; 
+    width: 10.8rem; 
+    z-index: 1;
+}
+
