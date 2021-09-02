@@ -10,7 +10,6 @@ body {
     background-color: #141414; 
     font-family: Helvetica, Arial, sans-serif; 
     font-size: 1.25rem; 
-    font-weight: 300;
     line-height: 1.5;
     width: 100%;
 }
@@ -31,7 +30,7 @@ a {
 }
 
 a:hover {
-    color: #CFBB93; 
+    color: #FA5050;
 }
 
 img {
@@ -43,11 +42,12 @@ img {
     color: #fff; 
 }
 
-.font-grey {
-    color: #CCCCCC;
-}
 .font-light-grey {
     color: #8D8B87;
+}
+
+.font-red {
+    color: #FA5050;
 }
 
 .section-margin {
@@ -60,7 +60,7 @@ img {
 }
 
 .section-header::after {
-    background-color: #CFBB93;
+    background-color: #FA5050;
     content: "";
     left: 0;
     height: 2px;
@@ -104,7 +104,7 @@ nav {
 /* about */
 
 .about-box {
-    border-color: #CCCCCC;
+    border-color: #8D8B87;
     border-style: solid;
     height: 11rem;
     position: relative; 
@@ -113,10 +113,10 @@ nav {
 
 .about-box__banner {
     background-color: #141414;
-    bottom: 3rem;
-    border-color: #CFBB93;
+    bottom: 2rem;
+    border-color: #FA5050;
     border-style: solid; 
-    left: 3rem;
+    left: 2rem;
     height: 10.8rem; 
     position: relative; 
     width: 10.8rem; 
