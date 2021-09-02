@@ -1,6 +1,6 @@
 const position = [
-    "Machine Learning",
-    "Developer"
+    "Machine Learning Engineer",
+    "Developer",
 ]
 
 let step = 0;
