@@ -83,6 +83,11 @@ img {
     margin-bottom: 4rem; 
 }
 
+.block-padding {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
 /* navbar */
 
 nav {
