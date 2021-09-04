@@ -134,7 +134,10 @@ nav {
 /* end about  */
 
 .services-box {
+    align-items: center;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+    display: flex; 
+    flex-wrap: wrap; 
     height: 350px; 
     perspective: 1000px; 
     width: 100%;
@@ -145,7 +148,6 @@ nav {
 }
 
 .services-box--card {
-    padding-top: 7rem;
     position: relative; 
     transform-style: preserve-3d; 
     transition: transform 0.8s; 
@@ -156,14 +158,14 @@ nav {
     backface-visibility: hidden;
     height: 100%; 
     position: absolute;
-    -webkit-backface-visibility: hidden; 
     width: 100%; 
+    -webkit-backface-visibility: hidden; 
 }
 
 .services-box--card__bottom {
-    transform: rotateY(180deg);
-    -webkit-backface-visibility: hidden; 
     backface-visibility: hidden;
+    transform: rotateY(180deg);
     width: 100%;
+    -webkit-backface-visibility: hidden; 
 }
 
