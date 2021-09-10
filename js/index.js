@@ -1,4 +1,5 @@
 /**************************** SUBHEADER ANIMATION *****************************/ 
+
 const position = [
     "Machine Learning Engineer",
     "Developer",
@@ -47,16 +48,32 @@ let subtitle_animation = setInterval(increment, 100);
 
 /******************************* SWIPER ***************************************/
 
-const mySwiper = new Swiper(".swiper-container", {
+let mySwiper = new Swiper(".swiper", {
     spaceBetween: 1,
-    slidesPerView: "3",
+    slidesPerView: 1,
     centeredSlides: true,
     grabCursor: true, 
     roundLengths: true,
     loop: true,
+    
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev"
+    }, 
+
+    breakpoints: {
+        300: {
+            slidesPerView: 1    
+        },
+        768: {
+            slidesPerView: 2
+        },
+        999: {
+            slidesPerView: 3
+        },
+        1440: {
+            slidesPerView: 4 
+        },
     }
   });
 
